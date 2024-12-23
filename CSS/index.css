@@ -1,5 +1,5 @@
 *{
-    border:1px solid black;
+    border:0px solid black;
 }
 header{
     height:100px;
@@ -43,7 +43,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: rgb(234, 245, 230);
+    color: rgb(19, 20, 18);
     background-color: rgba(0, 0, 0, 0.7); 
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
@@ -116,5 +116,9 @@ nav ul li a{
  nav ul{
     justify-content: center;
  }
+
+}
+.footer{
+    
 
 }
