@@ -35,6 +35,18 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
 }
+.seccion1 {
+    background-image: url("../img/img_html.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); 
+    
+    
+}
 /*Media queries para pantallas pequeñas (moviles) */
 @media (max-width: 769px) {
     /*para que el hq no se vea se usaria: display:none;*/
