@@ -8,7 +8,7 @@ header{
 
 }
 header img{
-    height: 70px;
+    height: 100px;
     width: auto;
 }
 nav{
@@ -30,23 +30,78 @@ nav ul{
 nav ul li{
     margin-right: 20px;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 nav ul li a{
     text-decoration: none;
 }
 .seccion1 {
-    background-image: url("../img/img_html.jpg");
+    background-image: url("../img/imag_html2.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: white;
+    color: rgb(234, 245, 230);
     background-color: rgba(0, 0, 0, 0.7); 
-    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    border:none;
+    h3{
+        border: none;
+    }
+}
+
+.seccion2{
+    background-image: url("../img/img_css3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(12, 11, 11);
+    background-color: rgba(0, 0, 0, 0.7); 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    h3{
+        border: none;
+    }
     
 }
+.seccion3{
+    background-image: url("../img/imag_js.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(236, 84, 160);
+    background-color: rgba(0, 0, 0, 0.7); 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    h3{
+        border: none;
+    }
+
+}
+.seccion4{
+    background-image: url("../img/imag_php.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(19, 16, 17);
+    background-color: rgba(0, 0, 0, 0.7); 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    h3{
+        border: none;
+    }
+
+}
+
 /*Media queries para pantallas pequeñas (moviles) */
 @media (max-width: 769px) {
     /*para que el hq no se vea se usaria: display:none;*/
