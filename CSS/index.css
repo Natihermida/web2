@@ -1,0 +1,53 @@
+*{
+    border:1px solid black;
+}
+header{
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+header img{
+    height: 70px;
+    width: auto;
+}
+nav{
+    height: 50px;
+}
+section{
+    height: 500px;
+}
+footer{
+    height: 100px;
+}
+nav ul{
+    display:flex;
+    justify-content: right;
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+nav ul li{
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+/*Media queries para pantallas pequeñas (moviles) */
+@media (max-width: 769px) {
+    /*para que el hq no se vea se usaria: display:none;*/
+    header{
+        justify-content: space-around;
+
+    }
+    header img{
+        height:60px;
+        width: auto;
+    }
+ nav ul{
+    justify-content: center;
+ }
+
+}
