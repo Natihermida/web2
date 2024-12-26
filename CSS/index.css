@@ -43,7 +43,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: rgb(19, 20, 18);
+    color: rgb(28, 29, 27);
     background-color: rgba(0, 0, 0, 0.7); 
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
@@ -119,6 +119,63 @@ nav ul li a{
 
 }
 .footer{
+    /* Estilo para el pie de página */
+footer.footer {
+    background-color: #f2f2f2; /* Fondo gris claro */
+    padding: 20px 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contenido del pie de página */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para las columnas */
+  .cursos, .contact {
+    width: 48%; /* Dividir en dos columnas */
+  }
+  
+  .cursos h3, .contact h3 {
+    color: #007BFF; /* Color para los títulos */
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  ul li a:hover {
+    color: #007BFF; /* Cambia el color cuando se pasa el ratón */
+  }
+  
+  /* Estilo para la parte inferior */
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
     
 
 }

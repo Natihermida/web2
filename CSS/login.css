@@ -1,0 +1,59 @@
+body>div{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+
+}   
+/*para centrar el cuerpo*/
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+form{
+    border: 1px solid rgb(164, 164, 168);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    align-items: center;
+}
+form input{
+    /* Redondear los campos de entrada */
+
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;  /* Añadir espacio interior para mejorar la apariencia */
+    margin-bottom: 10px; /* Espacio entre los campos */
+    border: 1px solid #ccc;  /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados en los campos de texto */
+    transition: border-color 0.3s; /* Efecto suave al enfocarse */
+
+   
+}
+button{
+    
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        width: 84%;
+        background-color: rgb(133, 167, 141);
+        color: white;
+        border: none;
+        border-radius: 10px; /* Bordes redondeados en el botón */
+        cursor: pointer; /* Cambiar el cursor cuando se pasa por encima */
+        transition: background-color 0.3s ease;
+    
+}
+button:hover {
+    background-color: rgb(115, 184, 130);
+}
+@media (max-width: 769px) {
+    body>div{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    
+
+    }
+}

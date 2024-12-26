@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer fondo y color base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal del formulario */
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Etiquetas */
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+/* Estilo de los campos de entrada */
+input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+/* Efecto en los campos al recibir foco */
+input:focus {
+    border-color: #4b8a3d;
+    outline: none;
+}
+
+/* Estilo del enlace */
+a {
+    color: #4b8a3d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el contenedor del mensaje */
+p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Estilo para los botones */
+button {
+    padding: 0.8rem;
+    background-color:rgb(133, 167, 141);
+    color: rgb(17, 16, 16);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: rgb(115, 184, 130);
+}
+
+/* Ajustes de responsividad */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
