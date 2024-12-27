@@ -83,8 +83,9 @@ nav ul li a{
     h3{
         border: none;
     }
-
 }
+
+
 .seccion4{
     background-image: url("../img/imag_php.jpg");
     background-size: cover;
@@ -100,6 +101,17 @@ nav ul li a{
         border: none;
     }
 
+}
+section p {
+    display: none;
+    width: 60%;
+}
+section h3:hover+p {
+    display: block;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+    background-color: white;
 }
 
 /*Media queries para pantallas pequeñas (moviles) */

@@ -83,6 +83,11 @@ button {
 button:hover {
     background-color: rgb(115, 184, 130);
 }
+#msg{
+    font-size: 20px;
+    color: red;
+    display: none;
+}
 
 /* Ajustes de responsividad */
 @media (max-width: 600px) {
