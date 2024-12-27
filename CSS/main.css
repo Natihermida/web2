@@ -1,0 +1,19 @@
+*{
+    border:1px solid black;
+    header:100px;
+
+}
+header{
+    height:100px;
+    width:90%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    
+    
+
+}
+.imgUser{
+    height: 100%;
+    border-radius: 50%;
+}

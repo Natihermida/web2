@@ -1,4 +1,3 @@
-
 /* Estilo general del cuerpo */
 body {
     font-family: Arial, sans-serif;
@@ -14,14 +13,18 @@ body {
 }
 
 /* Estilo del título */
-p {
-    font-size: 24px;
-    color: white;
-    background-color: black;
+header {
     width: 100%;
     padding: 15px;
-    margin: 0;
+    background-color: black;
+    color: white;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    margin: 0;
 }
 
 /* Estilo del formulario */
@@ -44,18 +47,14 @@ label {
     display: block;
 }
 
-/* Estilo de todos los campos de entrada (Nombre, Apellido, Teléfono, Correo) */
-input[type="text"],
-input[type="email"],
-input[type="telefono"],
-input[type="info"] {
-    width: 100%;          /* Todos los campos ocupan el mismo ancho */
-    padding: 10px;        /* Espaciado dentro de los campos */
-    margin-bottom: 15px;  /* Espaciado debajo de cada campo */
-    border: 1px solid #ddd;  /* Borde sutil */
-    border-radius: 4px;       /* Bordes redondeados */
-    font-size: 14px;      /* Tamaño de fuente */
-    box-sizing: border-box;  /* Incluye padding y borde dentro del ancho */
+
+
+
+/* Estilo específico para el checkbox */
+input[type="checkbox"] {
+    width: auto;          /* El tamaño del checkbox no es el mismo que los campos de texto */
+    margin-right: 10px;   /* Espacio a la derecha del checkbox */
+    display: inline-block;
 }
 
 /* Estilo de los botones */
@@ -67,14 +66,25 @@ button {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    width: 100%;  /* El botón ocupa el 100% del ancho */
 }
 
 button:hover {
     background-color: #45a049;
 }
 
+/* Estilo del texto junto al checkbox */
+#autCheck span {
+    font-size: 14px;
+    color: #333;
+}
+
 /* Estilo de los campos cuando están vacíos (para validación) */
 input:invalid {
-    border-color: red;
+    border-color: rgb(218, 154, 154);
+}
+
+input{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
 }
