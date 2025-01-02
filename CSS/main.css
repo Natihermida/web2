@@ -18,6 +18,10 @@ header{
 }
 .menuUser{
     display:none;
+    list-style: none;
+}
+#menuUser li{
+    list-style: none;
 }
 aside{
     width: 305;
@@ -63,7 +67,13 @@ aside i{
 }
 .asideMovil{
     display:block;
+    padding: 0;
     
+}
+.asideMolvil i{
+    font-size: 30px;
+    margin:10px;
+    margin-left: 20;
 }
 main{
     flex-direction: column
@@ -75,5 +85,11 @@ aside{
 #burger{
     list-style: none;
     display: none;
+    padding-left: 0;
+}
+div li{
+    margin: 10px;
+    border-bottom: 1px black solid;
 };
+
 }
