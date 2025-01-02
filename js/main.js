@@ -8,3 +8,12 @@ user.onclick=function(){
     menuUser.style.display="block";
 }
 };
+//asociar el evento click al icono de menu
+var menuMovil=document.getElementById("menuMovil");
+menuMovil.onclick=function(){
+    if(burger.style.display=="none"){
+        burger.style.display="block";
+}else{
+    burger.style.display="none";
+}
+}

@@ -6,34 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main web2</title>
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
     <header>
-        <img src="img/logo.svg" alt="">
+        <img id="fotoLogo" src="img/logo.svg" alt="logo">
         <div>
-            <img id="imgUser"class="imgUser" src="img/img_usuario.jpg" alt="imagen de usuario">
-            <div id="menuUser"class="menuUser ">
+            <img id="imgUser" class="imgUser" src="img/img_usuario.jpg" alt="imagen de usuario">
+            <div id="menuUser" class="menuUser ">
 
                 <ul>
                     <li>
                         <a href="">Datos de usuario</a>
                     </li>
                     <li>
-                        <a href="">Cerrar sesion</a>
+                        <a href="index.html">Cerrar sesion</a>
                     </li>
                 </ul>
             </div>
-            <main>
-                <asaid>
 
-                </asaid>
-                <section>
-
-                </section>
-            </main>
     </header>
-    <script src="js/main.js"></script>
+    <main>
+        <aside>
+            <ul>
+                <li><i class="fa-solid fa-cart-shopping"></i>Pedidos</li>
+                <li><i class="fa-solid fa-file-invoice"></i>Facturas</li>
+                <li><i class="fa-solid fa-circle-exclamation"></i>Incidencias</li>
+                <li><i class="fa-solid fa-calendar"></i>Calendario</li>
+                <li><i class="fa-solid fa-newspaper"></i>Presupuestos</li>
+            </ul>
+
+        </aside>
+        <div class="asideMovil">
+            <i id="menuMovil"class="fa-solid fa-bars"></i>
+            <ul id="burger">
+                <li><i class="fa-solid fa-cart-shopping"></i>Pedidos</li>
+                <li><i class="fa-solid fa-file-invoice"></i>Facturas</li>
+                <li><i class="fa-solid fa-circle-exclamation"></i>Incidencias</li>
+                <li><i class="fa-solid fa-calendar"></i>Calendario</li>
+                <li><i class="fa-solid fa-newspaper"></i>Presupuestos</li>
+            </ul>
+        </div>
+        <section class="contenedorPrincipal">
+            <p>ContenedorPrincipal</p>
+        </section>
+    </main>
+    <footer>
+        <p>2025 Todos los derechos reservados</p>
+        <script src="js/main.js"></script>
 </body>
 
 </html>
