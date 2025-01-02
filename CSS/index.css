@@ -46,7 +46,7 @@ nav ul li a{
     color: rgb(28, 29, 27);
     background-color: rgba(0, 0, 0, 0.7); 
     font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     border:none;
     h3{
         border: none;
@@ -63,7 +63,7 @@ nav ul li a{
     color: rgb(12, 11, 11);
     background-color: rgba(0, 0, 0, 0.7); 
     font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     h3{
         border: none;
     }
@@ -79,7 +79,7 @@ nav ul li a{
     color: rgb(236, 84, 160);
     background-color: rgba(0, 0, 0, 0.7); 
     font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     h3{
         border: none;
     }
@@ -96,7 +96,7 @@ nav ul li a{
     color: rgb(19, 16, 17);
     background-color: rgba(0, 0, 0, 0.7); 
     font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     h3{
         border: none;
     }
@@ -108,12 +108,22 @@ section p {
 }
 section h3:hover+p {
     display: block;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
     z-index: 2;
     background-color: white;
 }
+.seccion1,
+  .seccion2,
+  .seccion3,
+  .seccion4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+  }
 /*Media queries para pantallas pequeñas (moviles) */
 @media (max-width: 769px) {
     /*para que el hq no se vea se usaria: display:none;*/
