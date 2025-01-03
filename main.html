@@ -42,7 +42,7 @@
 
         </aside>
         <div class="asideMovil">
-            <i id="menuMovil"class="fa-solid fa-bars"></i>
+            <i id="menuMovil" class="fa-solid fa-bars"></i>
             <ul id="burger">
                 <li><i class="fa-solid fa-cart-shopping"></i>Pedidos</li>
                 <li><i class="fa-solid fa-file-invoice"></i>Facturas</li>
@@ -52,7 +52,80 @@
             </ul>
         </div>
         <section class="contenedorPrincipal">
-            <p>ContenedorPrincipal</p>
+            <h3>Listado de incidencias</h3>
+
+            <div class="incidencia">
+                <form action="" id="formIncidencias">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                    <label for="descripcion">Descripcion</label>
+                    <input type="text" name="descripcion" id="descripcion">
+                    <button class="crear">Crear</button>
+            </div>
+            <div class="lista"></div>
+            <table id="tablaIncidencias">
+                <thead>
+                    
+                    <th>ID</th>
+                    <th>Fecha</th>
+                    <th>Descripcion</th>
+                    <th>Operaciones</th>
+                    </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>01/01/2021</td>
+                        <td>Problemas con el servidor</td>
+                        <td>
+                            <button>Ver</button>
+                            <button>Editar</button>
+                            <button class="papelera">Eliminar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>01/01/2021</td>
+                        <td>Problemas con el servidor</td>
+                        <td>
+                            <button>Ver</button>
+                            <button>Editar</button>
+                            <button class="papelera">Eliminar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>01/01/2021</td>
+                        <td>Problemas con el servidor</td>
+                        <td>
+                            <button>Ver</button>
+                            <button>Editar</button>
+                            <button class="papelera">Eliminar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>01/01/2021</td>
+                        <td>Problemas con el servidor</td>
+                        <td>
+                            <button class="Ver">Ver</button>
+                            <button class="Editar">Editar</button>
+                            <button class="papelera">Eliminar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>01/01/2021</td>
+                        <td>Problemas con el servidor</td>
+                        <td>
+                            <button class="Ver">Ver</button>
+                            <button class="Editar">Editar</button>
+                            <button class="papelera">Eliminar</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
         </section>
     </main>
     <footer>

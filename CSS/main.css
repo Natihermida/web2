@@ -24,21 +24,25 @@ header{
     list-style: none;
 }
 aside{
-    width: 305;
+    width: 30%;
+    border-right: 2px black solid;
 }
 .asideMovil{
     display:none;
 
 }
-.contenedorPirncipal{
+.contenedorPrincipal{
     width: 70%;
+    padding: 30px;
+
 }
 main{
     display: flex;
     height: 80vh;
+    
 }
 aside li{
-    font-size: 30px;
+    font-size: 20px;
     list-style: none;
     margin-top: 20px;
 }
@@ -49,6 +53,29 @@ aside i{
     margin-right: 20px;
     width: 30px;
 }
+footer{
+    border-top: 2px color(black);
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  form{
+      display: flex;
+      flex-direction: column;
+  }
 @media(max-width: 768px){
     .menuUser li{
        margin-top: 20px;
