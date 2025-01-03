@@ -49,7 +49,7 @@ formulario.onsubmit=function(e){
     var incidencia=document.getElementById("descripcion").value;
     
     var fecha=document.getElementById("fecha").value;
-    var tablaIncidencias=document.getElementById("tablaIncidencias");
+    var tablaIncidencias=document.getElementById("tbodyIncidencias");
     
     var tr=document.createElement("tr");
     var td1=document.createElement("td");

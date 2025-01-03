@@ -54,7 +54,7 @@ aside i{
     width: 30px;
 }
 footer{
-    border-top: 2px color(black);
+    border-top: 2px black solid;
 
 }
 table {
@@ -89,8 +89,10 @@ table {
     height: 50px;
     width:auto
 }
-.contenedorPirncipal{
-    width: 100%;
+.contenedorPrincipal{
+    width: 70%;
+    padding: 20px;
+    overflow: auto;
 }
 .asideMovil{
     display:block;
