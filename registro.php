@@ -1,16 +1,9 @@
-<?php   
+<?php   //envia formulario al servidor
 if(isset($_POST["nombre"]) ){
 var_dump($_POST);
 exit();
 }
- //scrpt conexion a base de datos 
- $host = "localhost"; // o la ip de tu servidor Mysql
- $user = "root";
-    $password = "";
-    $database = "web2";
-    //verificar la conexion
-
-
+ 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +16,7 @@ exit();
 </head>
 <body>
     <!-- formulario -->
-    <form class= "register" action=""   method="post">
+    <form class= "register" action="procesar.php"   method="post">
         <label for="nombre">Nombre</label>
         <input type="texto" name="nombre" id="usuario">
         <label for="apellido1">Apellido 1</label>
@@ -33,7 +26,7 @@ exit();
         <label for="email">Correo Electrónico:</label>
         <input type="email" id="email" name="email" required>
         <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+        <input type="date" id="fecha-nacimiento" name="fecha" required>
         <label for="password">Contraseña:</label>
         <input id="pass"type="password" id="password" name="password" required>
         <label for="password"> Confirmar Contraseña:</label>
