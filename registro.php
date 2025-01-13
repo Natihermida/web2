@@ -1,3 +1,17 @@
+<?php   
+if(isset($_POST["nombre"]) ){
+var_dump($_POST);
+exit();
+}
+ //scrpt conexion a base de datos 
+ $host = "localhost"; // o la ip de tu servidor Mysql
+ $user = "root";
+    $password = "";
+    $database = "web2";
+    //verificar la conexion
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +23,13 @@
 </head>
 <body>
     <!-- formulario -->
-    <form action="" method="get">
+    <form class= "register" action=""   method="post">
         <label for="nombre">Nombre</label>
-        <input type="texto" name=" " id="usuario">
+        <input type="texto" name="nombre" id="usuario">
         <label for="apellido1">Apellido 1</label>
-        <input type="texto" name ="" id= "appellido1">
+        <input type="texto" name ="apellido1" id= "appellido1">
         <label for="apellido2">Apellido 2</label>
-        <input type="texto" name ="" id= "appellido2">
+        <input type="texto" name ="apellido2" id= "appellido2">
         <label for="email">Correo Electrónico:</label>
         <input type="email" id="email" name="email" required>
         <label for="fecha-nacimiento">Fecha de Nacimiento:</label>

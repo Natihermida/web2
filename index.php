@@ -20,6 +20,7 @@
     
 
     </nav>
+    <?php echo "Hola Mundo"; ?>
     <section class="seccion1">
         
         <h3>Curso HTML</h3>
